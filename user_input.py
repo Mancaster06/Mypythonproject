@@ -1,6 +1,13 @@
-name = input("Enter your name:")
-age = input("Enter your age:")
-location = input("Enetr your location:")
+my_list = []
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
 
-message = "Hello  "  + name + ", you are  " + age + " years old and you live in  " +location
-print(message)
+my_list.insert(1,15)
+
+my_list.extend([50,60,70])
+my_list.pop()
+my_list.sort()
+print(my_list.index(30))
+
